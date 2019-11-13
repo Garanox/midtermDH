@@ -31,16 +31,7 @@ var json = {
             
             
         
-                {
-                    type: "radiogroup",
-                    name: "team",
-                    title: "do you work in a team",
-                    
-                    choices: [
-                        "yes", "no", 
-                    ]
-                    
-                }
+               
             ]
             
         },{
@@ -109,6 +100,16 @@ var json = {
                     
                     choices: [
                         "less than a year", "1-5","5-10","10-15" 
+                    ]
+                    
+                },
+                {
+                    type: "radiogroup",
+                    name: "team",
+                    title: "do you work in a team",
+                    
+                    choices: [
+                        "yes", "no", 
                     ]
                     
                 }
