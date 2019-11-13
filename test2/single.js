@@ -54,10 +54,60 @@ var json = {
                     "1", "2","3","4","5" 
                 ]
                 
+            },
+            {
+                type: "radiogroup",
+                name: "tech",
+                title: "do you use computers?",
+                
+                choices: [
+                    "yes", "no", 
+                ]
+                
+            },
+            {
+                type: "radiogroup",
+                name: "drive",
+                title: "do you drive to work?",
+                
+                choices: [
+                    "yes", "no", 
+                ]
+                
+            },
+            {
+                type: "radiogroup",
+                name: "howlong",
+                title: "how many years have you been working here for?",
+                
+                choices: [
+                    "less than a year", "1-5","5-10","10-15" 
+                ]
+                
+            },
+            {
+                type: "radiogroup",
+                name: "breaks",
+                title: "do you take breaks? ",
+                
+                choices: [
+                    "yes", "no", 
+                ]
+                
+            },
+            {
+                type: "radiogroup",
+                name: "enjoy",
+                title: "do you enjoy your current position at work",
+                
+                choices: [
+                    "yes", "no", 
+                ]
+                
             }
         ]
     }],
-    completedHtml: "<h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4>"
+   
 };
 
 window.survey = new Survey.Model(json);
