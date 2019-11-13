@@ -4,18 +4,18 @@ Survey
     .applyTheme("default");
 
 var json = {
-    title: "American History",
+    title: "work questions",
     pages: [
         {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "civilwar",
-                    title: "When was the Civil War?",
+                    name: "daysWorked",
+                    title: "How many days do you work a week",
                     choices: [
-                        "1750-1800", "1800-1850", "1850-1900", "1900-1950", "after 1950"
-                    ],
-                    correctAnswer: "1850-1900"
+                        "1-2", "2-3", "3-4", "4-5"
+                    ]
+                    
                 }
             ]
         }, {
@@ -27,8 +27,8 @@ var json = {
                     choicesOrder: "random",
                     choices: [
                         "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
-                    ],
-                    correctAnswer: "Patrick Henry"
+                    ]
+                    
                 }
             ]
         }, {

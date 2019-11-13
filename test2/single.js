@@ -4,17 +4,17 @@ Survey
     .applyTheme("default");
 
 var json = {
-    title: "American History",
+    title: "work questions",
     pages: [{
         questions: [
             {
                 type: "radiogroup",
-                name: "civilwar",
-                title: "When was the Civil War?",
+                name: "Hours",
+                title: "How many hours do you work a week",
                 choices: [
-                    "1750-1800", "1800-1850", "1850-1900", "1900-1950", "after 1950"
+                    "8", "16", "40", "56"
                 ],
-                correctAnswer: "1850-1900"
+                
             },
             {
                 type: "radiogroup",
