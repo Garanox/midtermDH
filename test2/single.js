@@ -13,28 +13,47 @@ var json = {
                 title: "How many hours do you work a week",
                 choices: [
                     "8", "16", "40", "56"
-                ],
+                ]
                 
             },
             {
                 type: "radiogroup",
-                name: "libertyordeath",
-                title: "Who said 'Give me liberty or give me death?'",
-                choicesOrder: "random",
+                name: "department",
+                title: "What separtment do you work in",
                 choices: [
-                    "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
-                ],
-                correctAnswer: "Patrick Henry"
+                    "front desk", "IT", "Reaserch", "financial"
+                ]
+                
             },
             {
                 type: "radiogroup",
-                name: "magnacarta",
-                title: "What is the Magna Carta?",
-                choicesOrder: "random",
+                name: "team",
+                title: "do you work in a team",
+                
                 choices: [
-                    "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
-                ],
-                correctAnswer: "The foundation of the British parliamentary system"
+                    "yes", "no", 
+                ]
+                
+            },
+            {
+                type: "radiogroup",
+                name: "coffee",
+                title: "do you use the coffee station?",
+                
+                choices: [
+                    "yes", "no", 
+                ]
+                
+            },
+            {
+                type: "radiogroup",
+                name: "oncall",
+                title: "How often are you oncall per week?",
+                
+                choices: [
+                    "1", "2","3","4","5" 
+                ]
+                
             }
         ]
     }],
