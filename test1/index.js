@@ -16,22 +16,129 @@ var json = {
                         "1-2", "2-3", "3-4", "4-5"
                     ]
                     
-                }
-            ]
-        }, {
-            questions: [
+                },
+        
+        
                 {
                     type: "radiogroup",
-                    name: "libertyordeath",
-                    title: "Who said 'Give me liberty or give me death?'",
-                    choicesOrder: "random",
+                    name: "department",
+                    title: "What separtment do you work in",
                     choices: [
-                        "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
+                        "front desk", "IT", "Reaserch", "financial"
+                    ]
+                    
+                },
+            
+            
+        
+                {
+                    type: "radiogroup",
+                    name: "team",
+                    title: "do you work in a team",
+                    
+                    choices: [
+                        "yes", "no", 
                     ]
                     
                 }
             ]
-        }, 
+            
+        },{
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "coffee",
+                    title: "do you use the coffee station?",
+                    
+                    choices: [
+                        "yes", "no", 
+                    ]
+                    
+                },
+            
+            
+        
+            
+                {
+                    type: "radiogroup",
+                    name: "oncall",
+                    title: "How often are you oncall per week?",
+                    
+                    choices: [
+                        "1", "2","3","4","5" 
+                    ]
+                    
+                }
+            ]
+            
+        },
+        {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "tech",
+                    title: "do you use computers?",
+                    
+                    choices: [
+                        "yes", "no", 
+                    ]
+                    
+                },
+            
+            
+         
+            
+                {
+                    type: "radiogroup",
+                    name: "drive",
+                    title: "do you drive to work?",
+                    
+                    choices: [
+                        "yes", "no", 
+                    ]
+                    
+                }
+            ]
+            
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "howlong",
+                    title: "how many years have you been working here for?",
+                    
+                    choices: [
+                        "less than a year", "1-5","5-10","10-15" 
+                    ]
+                    
+                }
+            ]
+            
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "breaks",
+                    title: "do you take breaks? ",
+                    
+                    choices: [
+                        "yes", "no", 
+                    ]
+                    
+                },{
+                   type: "radiogroup",
+                    name: "enjoy",
+                    title: "do you enjoy your current position at work",
+                    
+                    choices: [
+                        "yes", "no", 
+                    ]
+                }
+            ]
+            
+        },
+         
+        
     ],
     
 };
