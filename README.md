@@ -14,5 +14,5 @@ Built with Visual studio Code
 Instructions for use
 Saves the choises you pick so they can be emailed later
 
-
+MIT Licence
 
