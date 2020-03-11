@@ -2,6 +2,7 @@
 
 Modified by: Dale heinbecker 
 created by: R Hildred 
+https://github.com/rhildred
 
 Getting started
 After downloading the file simply open it up and go to either test 1 or 2 folder and open the Index.html file
